@@ -29,7 +29,8 @@ Foi encontrado dados duplicados e com nomenclatura diferente para uma mesma cont
 ### Desafios Identificados
 - Todos os arquivos estavam codificados em latin-1, formato que pode gerar complicações ao se trabalhar em pataformas como Google Cloud;
 - Algumas contas estavam com variação de letra maiúscula e minúscula para uma mesma empresa ao longo dos anos (Ex.: Resultado antes dos Tributos sobre o Lucro em 2019 e Resultado Antes dos Tributos sobre o Lucro em 2020), o que é um ponto de atenção para linguagens case sensitive;
-- Algumas contas estavam com o valores representados em milhares de reais outras contas estavam representadas em unidades.
+- Datas que variavam entre trimestres, semestres, final do ano, etc;
+- Algumas contas estavam com o valores representados em milhares de reais outras contas estavam representadas em unidades;
 - Algumas contas de ativos foram apresentadas com o valor igual a 0;
 - Algumas empresas apresentavam determinada conta para 2019 e não apresentava a mesma conta para 2020.
 
@@ -76,3 +77,15 @@ Fórmula Básica:
 
 
 Ferramentas Utilizadas: Para o cálcula das novas features utilizou-se o Microsoft Excel.
+
+## 5. Modelagem e Organização dos Dados
+
+### Estruturação para o Tableau
+Os dados foram transformados em um formato tabular otimizado para o Tableau e para facilitar a vizualização dos dados de todos os anos foi realizado a união entre as tabelas, excluindo as informações das empresas que não apresentaram os valores das contas para todos os anos (Ex.: apresentou ativo circulante em 2019, porém, sem valores para essa conta para 2020)
+
+### Uso de SQL
+Foi utilizado consultas SQL para filtrar os dados, onde foi possível obter valores diferentes de 0, com unidade em milhares, data adequada (final de dezembro de cada ano).
+
+### Dicionário de Dados
+
+
