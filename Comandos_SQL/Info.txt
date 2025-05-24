@@ -1,0 +1,1 @@
+Aqui se encontram os arquivos com os comandos para as querys utilizadas no Google Sandbox BigQuery com SQL.
