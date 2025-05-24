@@ -90,13 +90,30 @@ Foi utilizado consultas SQL para filtrar os dados, onde foi possível obter valo
 
 ![dicionario de dados CVM](https://github.com/user-attachments/assets/4838fbec-2495-48d9-9cd3-1bfc8b26d339)
 
-6. Visualização e Dashboard no Tableau
+## 6. Visualização e Dashboard no Tableau
 
-•	Objetivo da Visualização: Desenvolvimento de dashboards interativos no Tableau para facilitar a visualização de indicadores financeiros de empresas de capital aberto.
-•	Tipos de Gráficos: Gráficos de barras horizontais para comparações entre as empresas.
-•	Interatividade: Implementação de filtros dinâmicos por e período, valor e tipo de conta, permitindo que o usuário personalize sua análise.
+### Objetivo da Visualização
+Desenvolvimento de dashboards interativos no Tableau para facilitar a visualização de indicadores financeiros de empresas de capital aberto.
+
+### Tipos de Gráficos
+Gráficos de barras horizontais para comparações entre as empresas.
+
+### Interatividade
+Implementação de filtros dinâmicos por e período, valor e tipo de conta, permitindo que o usuário personalize sua análise.
 
 Link para acesso dos dashboards:
 
 - [Indicadores financeiros](https://public.tableau.com/views/IndicadoresB3/AeP?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 - [Ganhos/perdas antes dos impostos](https://public.tableau.com/views/EBTB3/Planilha1?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+## 7. Resultados e Insights Obtidos
+   
+### Principais Descobertas
+É possível observar que as contas variam bastante de um ano para o outro, mudando sempre os nomes das empresas com os maiores valores que se encontram no topo do gráfico.
+
+### Valor Gerado
+O projeto facilita a tomada de decisão para investidores, permitindo uma análise rápida e visual do desempenho financeiro das empresas, sem a necessidade de processamento manual dos dados da CVM, além disso, facilita o desenvolvimento de ferramentas de automação para dados dos próximos anos, trazendo pontos importantes das etapas iniciais de limpeza, conversão e geração de novos atributos para análise.
+
+### Resposta ao Problema/Oportunidade
+Foi possível desenvolver metodologias para filtrar, limpar e organizar os dados vindos diretamente do site da CVM.
+
