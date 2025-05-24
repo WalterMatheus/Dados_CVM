@@ -90,4 +90,13 @@ Foi utilizado consultas SQL para filtrar os dados, onde foi possível obter valo
 
 ![dicionario de dados CVM](https://github.com/user-attachments/assets/4838fbec-2495-48d9-9cd3-1bfc8b26d339)
 
+6. Visualização e Dashboard no Tableau
 
+•	Objetivo da Visualização: Desenvolvimento de dashboards interativos no Tableau para facilitar a visualização de indicadores financeiros de empresas de capital aberto.
+•	Tipos de Gráficos: Gráficos de barras horizontais para comparações entre as empresas.
+•	Interatividade: Implementação de filtros dinâmicos por e período, valor e tipo de conta, permitindo que o usuário personalize sua análise.
+
+Link para acesso dos dashboards:
+
+- [Indicadores financeiros](https://public.tableau.com/views/IndicadoresB3/AeP?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Ganhos/perdas antes dos impostos](https://public.tableau.com/views/EBTB3/Planilha1?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
