@@ -9,6 +9,7 @@ A CVM fornece os dados, mas eles estão em formatos brutos (XML, CSV para downlo
 ### Ferramentas Utilizadas
 - Python para converter os arquivos para a codificação UTF-8;
 - SQL para organizar e filtrar parte dos dados;
+- Microsoft Excel para remoção de duplicatas e união entre as tabelas dos diferentes períodos;
 - Tableau para visualização;
 - GitHub para controle de versão e portfólio.
 
