@@ -28,6 +28,34 @@ Foi encontrado dados duplicados e com nomenclatura diferente para uma mesma cont
 
 ### Desafios Identificados
 - Todos os arquivos estavam codificados em latin-1, formato que pode gerar complicações ao se trabalhar em pataformas como Google Cloud;
-- Algumas contas estavam com variação de letra maiúscula e minúscula para uma mesma empresa ao longo dos anos (Ex.: Resultado antes dos Tributos sobre o Lucro e Resultado Antes dos Tributos sobre o Lucro), o que é um ponto de atenção para linguagens case sensitive;
+- Algumas contas estavam com variação de letra maiúscula e minúscula para uma mesma empresa ao longo dos anos (Ex.: Resultado antes dos Tributos sobre o Lucro em 2019 e Resultado Antes dos Tributos sobre o Lucro em 2020), o que é um ponto de atenção para linguagens case sensitive;
+- Algumas contas estavam com a conta em milhares de reais outras contas estavam representadas em unidades.
+- Algumas contas de ativos foram apresentadas com o valor igual a 0;
 - Algumas empresas apresentavam determinada conta para 2019 e não apresentava a mesma conta para 2020.
 
+## 4. Limpeza e Pré-processamento de Dados
+   
+### Tratamento de Dados Ausentes/Duplicados
+- Para as empresas quee não possuíam dados para as contas Ativo Circulante, Ativo Total, Passivo Circulante, Passivo Nao Circulante, Passivo Total e Resultado Antes dos Tributos sobre o Lucro, suas informações foram excluídas do dataset;
+- Para os dados duplicados, o tratamento foi de remoção das duplicatas.
+
+### Padronização e Transformação
+Foi unificado os dados de todos os anos das empresas que possuíam as contas desejadas em uma única tabela para facilitar a análise no Tableau.
+
+### Engenharia de Features
+Foram criadas para este projeto 3 novas features:
+
+1) Endividamento Geral - O Endividamento Geral é um indicador que mede a proporção dos ativos de uma empresa que é financiada por capital de terceiros, ou seja, por dívidas. Ele nos diz quanto do patrimônio da empresa (seus bens e direitos) é sustentado por recursos que não pertencem aos acionistas, mas sim a bancos, fornecedores, governos, etc.
+
+Fórmula Básica:
+
+![CodeCogsEqn](https://github.com/user-attachments/assets/f80e8521-4e1b-4604-b47b-ea1b4430f55f)
+
+Onde:
+- EG - Endividamento geral
+- PE - Passivo exigível
+- AT - Ativo total
+
+2)
+
+Ferramentas Utilizadas: Mencione as bibliotecas Python (Pandas, NumPy) e as operações SQL que foram cruciais aqui.
