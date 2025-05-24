@@ -101,11 +101,6 @@ Gráficos de barras horizontais para comparações entre as empresas.
 ### Interatividade
 Implementação de filtros dinâmicos por e período, valor e tipo de conta, permitindo que o usuário personalize sua análise.
 
-Link para acesso dos dashboards:
-
-- [Indicadores financeiros](https://public.tableau.com/views/IndicadoresB3/AeP?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- [Ganhos/perdas antes dos impostos](https://public.tableau.com/views/EBTB3/Planilha1?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-
 ## 7. Resultados e Insights Obtidos
    
 ### Principais Descobertas
@@ -115,5 +110,17 @@ Link para acesso dos dashboards:
 O projeto facilita a tomada de decisão para investidores, permitindo uma análise rápida e visual do desempenho financeiro das empresas, sem a necessidade de processamento manual dos dados da CVM, além disso, facilita o desenvolvimento de ferramentas de automação para dados dos próximos anos, trazendo pontos importantes das etapas iniciais de limpeza, conversão e geração de novos atributos para análise.
 
 ### Resposta ao Problema/Oportunidade
-Foi possível desenvolver metodologias para filtrar, limpar e organizar os dados vindos diretamente do site da CVM.
+Foi possível desenvolver metodologias para filtrar, limpar e organizar os dados vindos diretamente do site da CVM para facilitar o processo de automação da atividade.
 
+## 8. Próximos Passos 
+
+### Melhorias Futuras 
+Inclusão de dados ESG, integração com ferramentas de machine learning para previsão de desempenho, automação total do processo de extração, tratamento e carregamento dos dados e criação de um modelo de scoring financeiro.
+
+## 9. Acesso ao Projeto
+### Link para o Repositório: 
+
+### Link para o Dashboard no Tableau Public:
+  
+- [Indicadores financeiros](https://public.tableau.com/views/IndicadoresB3/AeP?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Ganhos/perdas antes dos impostos](https://public.tableau.com/views/EBTB3/Planilha1?:language=pt-BR&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
