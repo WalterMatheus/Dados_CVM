@@ -1,0 +1,1 @@
+Aqui se encontram os arquivos com os comandos Python utilizados no Jupyter Notebook
