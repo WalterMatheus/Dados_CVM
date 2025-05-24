@@ -29,7 +29,7 @@ Foi encontrado dados duplicados e com nomenclatura diferente para uma mesma cont
 ### Desafios Identificados
 - Todos os arquivos estavam codificados em latin-1, formato que pode gerar complicações ao se trabalhar em pataformas como Google Cloud;
 - Algumas contas estavam com variação de letra maiúscula e minúscula para uma mesma empresa ao longo dos anos (Ex.: Resultado antes dos Tributos sobre o Lucro em 2019 e Resultado Antes dos Tributos sobre o Lucro em 2020), o que é um ponto de atenção para linguagens case sensitive;
-- Algumas contas estavam com a conta em milhares de reais outras contas estavam representadas em unidades.
+- Algumas contas estavam com o valores representados em milhares de reais outras contas estavam representadas em unidades.
 - Algumas contas de ativos foram apresentadas com o valor igual a 0;
 - Algumas empresas apresentavam determinada conta para 2019 e não apresentava a mesma conta para 2020.
 
