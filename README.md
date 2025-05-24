@@ -84,8 +84,10 @@ Ferramentas Utilizadas: Para o cálcula das novas features utilizou-se o Microso
 Os dados foram transformados em um formato tabular otimizado para o Tableau e para facilitar a vizualização dos dados de todos os anos foi realizado a união entre as tabelas, excluindo as informações das empresas que não apresentaram os valores das contas para todos os anos (Ex.: apresentou ativo circulante em 2019, porém, sem valores para essa conta para 2020)
 
 ### Uso de SQL
-Foi utilizado consultas SQL para filtrar os dados, onde foi possível obter valores diferentes de 0, com unidade em milhares, data adequada (final de dezembro de cada ano).
+Foi utilizado consultas SQL para filtrar os dados, onde foi possível obter valores diferentes de 0, com unidade em milhares e data adequada (final de dezembro de cada ano).
 
 ### Dicionário de Dados
+
+![dicionario de dados CVM](https://github.com/user-attachments/assets/4838fbec-2495-48d9-9cd3-1bfc8b26d339)
 
 
