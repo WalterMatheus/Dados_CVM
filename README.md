@@ -119,6 +119,7 @@ Inclusão de dados ESG, integração com ferramentas de machine learning para pr
 
 ## 9. Acesso ao Projeto
 ### Link para o Repositório: 
+- [Dados CVM](https://github.com/WalterMatheus/Dados_CVM)
 
 ### Link para o Dashboard no Tableau Public:
   
