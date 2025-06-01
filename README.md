@@ -54,9 +54,9 @@ Fórmula básica:
 ![CodeCogsEqn](https://github.com/user-attachments/assets/f80e8521-4e1b-4604-b47b-ea1b4430f55f)
 
 Onde:
-- EG - Endividamento geral
-- PE - Passivo exigível
-- AT - Ativo total
+- EG = Endividamento geral
+- PE = Passivo exigível
+- AT = Ativo total
 
 2) Liquidez Corrente - A Liquidez Corrente é um indicador financeiro que mede a capacidade de uma empresa de cumprir suas obrigações de curto prazo (dívidas) com seus ativos de curto prazo (disponibilidades). Em outras palavras, ela mostra quanto a empresa tem em ativos que podem ser convertidos em dinheiro rapidamente para pagar o que deve em menos de um ano. É um dos indicadores de liquidez mais populares e serve como um termômetro da solvência de curto prazo de uma organização.
 
@@ -66,9 +66,9 @@ Fórmula básica:
 
 
 Onde:
-- LC - Liquidez corrente
-- AC - Ativo circulante
-- PC - Passivo circulante
+- LC = Liquidez corrente
+- AC = Ativo circulante
+- PC = Passivo circulante
 
 3) Patrimônio Líquido - O Patrimônio Líquido representa o valor residual dos ativos de uma empresa depois que todos os seus passivos (dívidas e obrigações) foram pagos. Em termos mais simples, é a parte do capital da empresa que pertence, de fato, aos seus proprietários/acionistas. É o que resta para os acionistas se a empresa fosse liquidada e todos os seus credores fossem pagos.
 
