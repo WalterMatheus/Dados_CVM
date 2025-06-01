@@ -26,23 +26,22 @@ Download de arquivos CSV e utilização de scripts Python para conversão dos ar
 ### Primeiras Observações
 Foi encontrado dados duplicados e com nomenclatura diferente para uma mesma conta (Ex.: Adiantamento a Fornecedor e Adiantamento a Fornecedores).
 
-
 ### Desafios Identificados
-- Todos os arquivos estavam codificados em latin-1, formato que pode gerar complicações ao se trabalhar em pataformas como Google Cloud;
+- Todos os arquivos estavam codificados em latin-1, formato que pode gerar complicações ao se trabalhar em plataformas como Google Cloud;
 - Algumas contas estavam com variação de letra maiúscula e minúscula para uma mesma empresa ao longo dos anos (Ex.: Resultado antes dos Tributos sobre o Lucro em 2019 e Resultado Antes dos Tributos sobre o Lucro em 2020), o que é um ponto de atenção para linguagens case sensitive;
 - Datas que variavam entre trimestres, semestres, final do ano, etc;
-- Algumas contas estavam com o valores representados em milhares de reais outras contas estavam representadas em unidades;
+- Algumas contas estavam com os valores representados em milhares de reais outras contas estavam representadas em unidades;
 - Algumas contas de ativos foram apresentadas com o valor igual a 0;
 - Algumas empresas apresentavam determinada conta para 2019 e não apresentava a mesma conta para 2020.
 
 ## 4. Limpeza e Pré-processamento de Dados
    
 ### Tratamento de Dados Ausentes/Duplicados
-- Para as empresas quee não possuíam dados para as contas Ativo Circulante, Ativo Total, Passivo Circulante, Passivo Nao Circulante, Passivo Total e Resultado Antes dos Tributos sobre o Lucro, suas informações foram excluídas do dataset;
+- Para as empresas que não possuíam dados para as contas Ativo Circulante, Ativo Total, Passivo Circulante, Passivo Nao Circulante, Passivo Total e Resultado Antes dos Tributos sobre o Lucro, suas informações foram excluídas do dataset;
 - Para os dados duplicados, o tratamento foi de remoção das duplicatas.
 
 ### Padronização e Transformação
-Foi unificado os dados de todos os anos das empresas que possuíam as contas desejadas em uma única tabela para facilitar a análise no Tableau.
+Foram unificados os dados de todos os anos das empresas que possuíam as contas desejadas em uma única tabela para facilitar a análise no Tableau.
 
 ### Engenharia de Features
 Foram criadas para este projeto 3 novas features:
@@ -83,7 +82,7 @@ Para o cálculo das novas features utilizou-se o Microsoft Excel.
 ## 5. Modelagem e Organização dos Dados
 
 ### Estruturação para o Tableau
-Os dados foram transformados em um formato tabular otimizado para o Tableau e para facilitar a vizualização dos dados de todos os anos foi realizado a união entre as tabelas, excluindo as informações das empresas que não apresentaram os valores das contas para todos os anos (Ex.: apresentou ativo circulante em 2019, porém, sem valores para essa conta para 2020)
+Os dados foram transformados em um formato tabular otimizado para o Tableau e para facilitar a visualização dos dados de todos os anos foi realizado a união entre as tabelas, excluindo as informações das empresas que não apresentaram os valores das contas para todos os anos (Ex.: apresentou ativo circulante em 2019, porém, sem valores para essa conta para 2020)
 
 ### Uso de SQL
 Foi utilizado consultas SQL para filtrar os dados, onde foi possível obter valores diferentes de 0, com unidade em milhares e data adequada (final de dezembro de cada ano).
@@ -101,7 +100,7 @@ Desenvolvimento de dashboards interativos no Tableau para facilitar a visualiza�
 Gráficos de barras horizontais para comparações entre as empresas.
 
 ### Interatividade
-Implementação de filtros dinâmicos por e período, valor e tipo de conta, permitindo que o usuário personalize sua análise.
+Implementação de filtros dinâmicos por período, valor e tipo de conta, permitindo que o usuário personalize sua análise.
 
 ## 7. Resultados e Insights Obtidos
    
