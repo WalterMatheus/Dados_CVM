@@ -77,7 +77,8 @@ Fórmula Básica:
 ![CodeCogsEqn (2)](https://github.com/user-attachments/assets/231ed095-f572-482f-8620-025ed169cc5a)
 
 
-Ferramentas Utilizadas: Para o cálcula das novas features utilizou-se o Microsoft Excel.
+### Ferramentas Utilizadas
+Para o cálculo das novas features utilizou-se o Microsoft Excel.
 
 ## 5. Modelagem e Organização dos Dados
 
